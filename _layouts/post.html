@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<article id="{{ page.title | replace: ' ', '-' }}">
+  <h2 class="pageTitle">{{ page.title }}</h2>
+  <p class="meta">{{ page.date | date_to_string }}</p>
+  <div class="post">
+    {{ content }}
+  </div>
+</article>

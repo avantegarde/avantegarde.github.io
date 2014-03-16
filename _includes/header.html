@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>{{ site.name }} - {{ page.title }}</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="/css/global.css">
+  <script type="text/javascript" src="/js/global.js"></script>
+  <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0">
+</head>
+<body class="{{ page.title | replace: ' ', '-' }}">
+
+  <header class="container">
+    <h1 class="siteName"><a href="/">{{ site.name }}</a></h1>
+    <a href="/">Home</a>
+  </header>
+
+  <main class="container">

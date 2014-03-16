@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Welcome to the Doctor Theme"
+date:   2014-03-15 13:24:00
+categories: news
+---
+
+Welcome to Doctor, a theme for the [Jekyll](http://jekyllrb.com) static site generator. In addition to being ready to blog, Doctor also includes demo static pages, some HTML5 smarts, and a few things hooked up the get you rolling!

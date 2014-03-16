@@ -1,0 +1,112 @@
+/* Doctor theme global CSS */
+
+* {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", "Helvetica Neue", "Myriad Pro", "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #eaeaea;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: subpixel-antialiased;
+  color: #333;
+  transition: all 0.2s ease-in-out;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 15px;
+  background: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+article {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.3;
+  margin: 0 0 5px 0;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+  color: #333;
+}
+
+h1 {
+  font-size: 32pt;
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 28pt;
+  letter-spacing: -0.5px;
+}
+
+h3 {
+  font-size: 24pt;
+}
+
+h4 {
+  font-size: 20pt;
+}
+
+h5 {
+  font-size: 18pt;
+}
+
+h6 {
+  font-size: 14pt;
+}
+
+p {
+  margin: 0 0 10px 0;
+}
+
+  /* Put all of your CSS styles here, this is how your site will show up on Phone */
+
+@media (min-width: 481px) {
+
+  /* Phone Landscape + Tablet Portrait Style Overrides */
+  /* Anything in here will kick in once the browser is wider than 481px */
+
+  body {
+    padding-top: 10px;
+  }
+
+.container {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+}
+
+@media (min-width: 769px) {
+
+  /* Tablet Landscape + Desktop Style Overrides */
+  /* Anything in here will kick in once the browser is wider than 769px */
+
+}
+
+@media (min-width: 980px) {
+
+  body {
+    padding-top: 50px;
+  }
+
+  .container {
+    margin: 0 auto;
+  }
+
+}
